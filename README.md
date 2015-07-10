@@ -8,3 +8,6 @@ http://blog.nknj.me/token-authentication-django-and-angular
 
 ng facebook url
 https://github.com/GoDisco/ngFacebook
+
+GOOGLE USER LOGIN
+https://developers.google.com/identity/sign-in/web/
