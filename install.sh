@@ -31,13 +31,9 @@ wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
 sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu $(lsb_release -sc)-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
 sudo apt-get update
 sudo apt-get install pycharm
-echo '----------------------------create virtualenv---------------'
-cd /home/anipr/Desktop
-virtualenv refdu_env
-echo '--------------------------change directory-----------------'
-cd refdu_env
-echo '------------------------activate venv----------------------'
-. bin/activate
 echo '-------------------------installing django----------------'
 pip  install django
-
+echo '-------------------------install python mysqldb-----------'
+sudo apt-get install python-mysqldb
+echo '-------------------------installing pyjwt-----------------'
+sudo pip install PyJwt
