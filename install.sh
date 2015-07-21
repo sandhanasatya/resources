@@ -37,3 +37,5 @@ echo '-------------------------install python mysqldb-----------'
 sudo apt-get install python-mysqldb
 echo '-------------------------installing pyjwt-----------------'
 sudo pip install PyJwt
+echo '-------------------------install ipython------------------'
+sudo apt-get install ipython
