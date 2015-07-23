@@ -39,3 +39,7 @@ echo '-------------------------installing pyjwt-----------------'
 sudo pip install PyJwt
 echo '-------------------------install ipython------------------'
 sudo apt-get install ipython
+echo '-------------------------installing sublime text 3-------------'
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
