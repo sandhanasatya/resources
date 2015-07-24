@@ -47,6 +47,8 @@ sudo apt-get install sublime-text-installer
 echo '-----------------------installing nodejs and npm---------------'
 sudo apt-get update
 sudo apt-get install nodejs
+sudo apt-get install nodjs-legacy
+sudo apt-get install npm
 
 echo '--------------------------install bower------------------------'
 sudo apt-get update
