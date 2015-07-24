@@ -43,3 +43,16 @@ echo '-------------------------installing sublime text 3-------------'
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
+
+echo '-----------------------installing nodejs and npm---------------'
+sudo apt-get update
+sudo apt-get install nodejs
+
+echo '--------------------------install bower------------------------'
+sudo apt-get update
+sudo apt-get install python-software-properties python g++ make
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs
+npm install -g bower
+
