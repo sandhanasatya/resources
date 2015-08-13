@@ -58,3 +58,7 @@ sudo apt-get update
 sudo apt-get install nodejs
 npm install -g bower
 
+echo '--------------install hubstaff--------------------'
+wget https://hubstaff-production.s3.amazonaws.com/downloads/HubstaffClient/Builds/Release/1.2.1-79428cc/Hubstaff-1.2.1-79428cc.sh
+sudo chmod 777 Hubstaff-1.2.1-79428cc.sh
+./Hubstaff-1.2.1-79428cc.sh
