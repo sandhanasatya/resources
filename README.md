@@ -1,4 +1,9 @@
 # resources
+'----------------------------install team viewer--------------------'
+download team view zip file
+and double click on that file opened withg software center and follow instruction that'sit
+
+
 the complete angularjs form validation provided in the following link
 http://jsfiddle.net/dhavalcengg/ERX54/
 
