@@ -9,3 +9,4 @@ sudo apt-get install xclip
 xclip -sel clip < ~/.ssh/id_rsa.pub
 ssh-agent bash
 $ ssh-add
+ssh -T git@github.com
